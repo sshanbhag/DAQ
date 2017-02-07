@@ -1,0 +1,352 @@
+
+ ----------General Information  ----------
+
+Current Time & Date: 
+01-Feb-2017 15:45:12
+
+Operating System: 
+Microsoft Windows [Version 6.1.7601] 
+
+Hardware Configuration:
+x86 Family 6 Model 26 Stepping 5, GenuineIntel
+The measured CPU speed is 3117 MHz
+RAM is 4095 MB
+Swap space is 8189 MB
+
+PROCESSOR_ARCHITECTURE = AMD64
+PROCESSOR_ARCHITEW6432 = undefined
+
+MATLAB version: 
+9.1.0.441655 (R2016b)
+
+Data Acquisition Toolbox version: 
+       Name: 'Data Acquisition Toolbox'
+    Version: '3.10'
+    Release: '(R2016b)'
+       Date: '25-Aug-2016'
+
+
+MATLAB License Number:
+1061681
+
+ ----------MATLAB root directory:  ----------
+C:\Program Files\MATLAB\R2016b
+
+ ----------Data Acquisition Toolbox directory:  ----------
+C:\Program Files\MATLAB\R2016b\toolbox\daq
+
+ ----------DAQ Session Based Vendors Available:  ----------
+
+Number of vendors: 2
+
+index     ID      Operational       Comment       
+----- ----------- ----------- --------------------
+1     directsound true        DirectSound
+2     ni          false       National Instruments
+
+
+ ----------DAQ Session Based Devices Available:  ----------
+
+Data acquisition devices:
+
+index   Vendor    Device ID                      Description                     
+----- ----------- --------- -----------------------------------------------------
+1     directsound Audio0    DirectSound Primary Sound Capture Driver
+2     directsound Audio1    DirectSound Microphone (High Definition Audio Device)
+3     directsound Audio2    DirectSound Primary Sound Driver
+4     directsound Audio3    DirectSound Speakers (High Definition Audio Device)
+
+
+ ----------Session Based Device Details:  ----------
+
+ ----------Device Details for vendor: directsound ----------
+
+
+ ----------Device 1 ----------
+
+directsound: DirectSound Primary Sound Capture Driver (Device ID: 'Audio0')
+   Audio input subsystem supports:
+      -1.0 to +1.0  range
+      Rates from 80.0 to 1000000.0 scans/sec
+      2 channels ('1','2')
+      'Audio' measurement type
+   
+
+
+          RangesAvailable: -1.0 to +1.0
+               Resolution: 24
+                RateLimit: [80.0 1000000.0]
+MeasurementTypesAvailable: [1x1 cell]
+   DefaultMeasurementType: 'Audio'
+           NativeDataType: 'double'
+            SubsystemType: AudioInput
+NumberOfChannelsAvailable: 2
+             ChannelNames: [1x2 cell]
+
+
+ ----------Device 2 ----------
+
+directsound: DirectSound Microphone (High Definition Audio Device) (Device ID: 'Audio1')
+   Audio input subsystem supports:
+      -1.0 to +1.0  range
+      Rates from 80.0 to 1000000.0 scans/sec
+      2 channels ('1','2')
+      'Audio' measurement type
+   
+
+
+          RangesAvailable: -1.0 to +1.0
+               Resolution: 24
+                RateLimit: [80.0 1000000.0]
+MeasurementTypesAvailable: [1x1 cell]
+   DefaultMeasurementType: 'Audio'
+           NativeDataType: 'double'
+            SubsystemType: AudioInput
+NumberOfChannelsAvailable: 2
+             ChannelNames: [1x2 cell]
+
+
+ ----------Device 3 ----------
+
+directsound: DirectSound Primary Sound Driver (Device ID: 'Audio2')
+   Audio output subsystem supports:
+      -1.0 to +1.0  range
+      Rates from 80.0 to 1000000.0 scans/sec
+      2 channels ('1','2')
+      'Audio' measurement type
+   
+
+
+          RangesAvailable: -1.0 to +1.0
+               Resolution: 24
+                RateLimit: [80.0 1000000.0]
+MeasurementTypesAvailable: [1x1 cell]
+   DefaultMeasurementType: 'Audio'
+           NativeDataType: 'double'
+            SubsystemType: AudioOutput
+NumberOfChannelsAvailable: 2
+             ChannelNames: [1x2 cell]
+
+
+ ----------Device 4 ----------
+
+directsound: DirectSound Speakers (High Definition Audio Device) (Device ID: 'Audio3')
+   Audio output subsystem supports:
+      -1.0 to +1.0  range
+      Rates from 80.0 to 1000000.0 scans/sec
+      6 channels ('1' - '6')
+      'Audio' measurement type
+   
+
+
+          RangesAvailable: -1.0 to +1.0
+               Resolution: 24
+                RateLimit: [80.0 1000000.0]
+MeasurementTypesAvailable: [1x1 cell]
+   DefaultMeasurementType: 'Audio'
+           NativeDataType: 'double'
+            SubsystemType: AudioOutput
+NumberOfChannelsAvailable: 6
+             ChannelNames: [1x6 cell]
+
+ ----------Device Details for vendor: ni ----------
+
+
+ ----------MATLAB path:  ----------
+
+		MATLABPATH
+
+	C:\Users\sshanbhag\Documents\MATLAB
+	E:\Work\Code\Matlab\dev\TytoLogy\Toolbox\AudioToolbox
+	E:\Work\Code\Matlab\dev\TytoLogy\Toolbox\AudioToolbox\Calibration
+	E:\Work\Code\Matlab\dev\TytoLogy\Toolbox\AudioToolbox\FFT
+	E:\Work\Code\Matlab\dev\TytoLogy\Toolbox\AudioToolbox\Filter
+	E:\Work\Code\Matlab\dev\TytoLogy\Toolbox\AudioToolbox\Synthesis
+	E:\Work\Code\Matlab\dev\TytoLogy\Toolbox\AudioToolbox\Synthesis\spoken_number_wavfiles
+	E:\Work\Code\Matlab\dev\TytoLogy\Toolbox\AudioToolbox\Utils
+	E:\Work\Code\Matlab\dev\TytoLogy\Toolbox\UtilitiesToolbox\UIUtilities
+	E:\Work\Code\Matlab\dev\TytoLogy\Toolbox\UtilitiesToolbox\GeneralUtilities
+	E:\Work\Code\Matlab\dev\TytoLogy\Toolbox\UtilitiesToolbox
+	C:\ProgramData\MATLAB\SupportPackages\R2016b\toolbox\daq\supportpackages\daqaudio
+	C:\ProgramData\MATLAB\SupportPackages\R2016b\toolbox\daq\supportpackages\daqaudio\audioexamples
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\datafun
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\datatypes
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\elfun
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\elmat
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\funfun
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\general
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\iofun
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\lang
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\matfun
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\mvm
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\ops
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\polyfun
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\randfun
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\sparfun
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\specfun
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\strfun
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\timefun
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\demos
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\findfiles
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\graph2d
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\graph3d
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\graphics
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\graphics\obsolete
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\plottools
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\scribe
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\scribe\obsolete
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\specgraph
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\uitools
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\uitools\obsolete
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\hardware\stubs
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\images
+	C:\Program Files\MATLAB\R2016b\toolbox\local
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\optimfun
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\bigdata
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\codetools
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\codetools\embeddedoutputs
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\datamanager
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\datastoreio
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\depfun
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\graphfun
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\guide
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\helptools
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\icons
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\mapreduceio
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\testframework\core
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\testframework\obsolete
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\testframework\ext
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\testframework\measurement
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\testframework\performance
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\verctrl
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\winfun
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\winfun\net
+	C:\Program Files\MATLAB\R2016b\toolbox\simulink\sldependency
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\addons
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\addons\cef
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\addons\fallbackmanager
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\addons\supportpackages
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\addons_product
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\supportpackagemanagement
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\addons_toolbox
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\addons_zip
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\appdesigner\appdesigner
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\appdesigner\appdesigner\interface
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\apps
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\audiovideo
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\cefclient
+	C:\Program Files\MATLAB\R2016b\toolbox\coder\codedescriptor_core
+	C:\Program Files\MATLAB\R2016b\toolbox\coder\trace
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\comparisons
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\configtools
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\connector\connector
+	C:\Program Files\MATLAB\R2016b\toolbox\daq\daq
+	C:\Program Files\MATLAB\R2016b\toolbox\daq\daqdemos
+	C:\Program Files\MATLAB\R2016b\toolbox\daq\daqsdk\bin\win64
+	C:\Program Files\MATLAB\R2016b\toolbox\daq\daqsdk
+	C:\Program Files\MATLAB\R2016b\toolbox\daq\daqblks
+	C:\Program Files\MATLAB\R2016b\toolbox\daq\daqblks\daqsfcn
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\datatools\inspector\matlab
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\external\engines\engine_api
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\uitools\uicomponents\components
+	C:\Program Files\MATLAB\R2016b\toolbox\hdlcoder\hdllib\ml_lib
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\hadoopserializer
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\appdes\services
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\imagesci
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\instrument
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\m3i
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\mldatx
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\networklib
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\external\interfaces\python
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\serial
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\advisor
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\asynciolib
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\cgxe\cgxe
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\cmlink\api
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\coder\coder
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\configset
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\controllib\general
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\controllib\graphics
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\controllib\graphics\utils
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\controllib\graphics\plotoptions
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\dastudio
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\deviceplugindetection
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\filterdesignlib
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\filterdesignlib\filterbuilder
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\hotpluglib
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\hwconnectinstaller
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\hwconnectinstaller\common
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\imageio
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\io
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\maputils
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\measure
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\mlreportgen\dom
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\mlreportgen\dom\dom
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\mlreportgen\dom\dom\help
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\mlreportgen\ppt
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\mlreportgen\ppt\ppt
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\mlreportgen\ppt\ppt\help
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\multimedia
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\networklib
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\optimlib
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\rptgen
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\sdi
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\siglib
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\sl_coverage_configset
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\sl_async_streaming
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\spcuilib
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\spreadsheet
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\statslib
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\statslib\sensitivity
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\supportpkgservices\legacysupportpkginfo
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\supportpkgservices\installservices
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\supportsoftware\launcher
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\supportsoftware\services
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\testmeaslib\general
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\testmeaslib\graphics
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\testmeaslib\simulink
+	C:\Program Files\MATLAB\R2016b\toolbox\signal\signal
+	C:\Program Files\MATLAB\R2016b\toolbox\signal\sigtools
+	C:\Program Files\MATLAB\R2016b\toolbox\signal\sptoolgui
+	C:\Program Files\MATLAB\R2016b\toolbox\signal\sigdemos
+	C:\Program Files\MATLAB\R2016b\toolbox\signal\signalanalyzer
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\simulink
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\simulation_data_repository
+	C:\Program Files\MATLAB\R2016b\toolbox\simulink\simulink_data_dictionary\sldd
+	C:\Program Files\MATLAB\R2016b\toolbox\simulink\simulink\slproject
+	C:\Program Files\MATLAB\R2016b\toolbox\simulink\simulink\slproject\menu
+	C:\Program Files\MATLAB\R2016b\toolbox\shared\diagnostic
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\spf\matlabhost
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\spf\matlabservices
+	C:\Program Files\MATLAB\R2016b\toolbox\stats\stats
+	C:\Program Files\MATLAB\R2016b\toolbox\stats\classreg
+	C:\Program Files\MATLAB\R2016b\toolbox\stats\clustering
+	C:\Program Files\MATLAB\R2016b\toolbox\stats\bayesoptim
+	C:\Program Files\MATLAB\R2016b\toolbox\stats\bigdata
+	C:\Program Files\MATLAB\R2016b\toolbox\stats\statsdemos
+	C:\Program Files\MATLAB\R2016b\toolbox\stats\gpu
+	C:\Program Files\MATLAB\R2016b\toolbox\stats\mlearnapp
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\system
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\system\editor
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\timeseries
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\hds
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\toolboxmanagement\matlab_api
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\toolbox_packaging
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\toolstrip
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\uicomponents\uicomponents
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\uicomponents\uicomponents\graphics
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\webcam
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\external\interfaces\webservices\http
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\external\interfaces\json
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\external\interfaces\webservices\restful
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\external\interfaces
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\external\interfaces\webservices
+	C:\Program Files\MATLAB\R2016b\toolbox\matlab\external\interfaces\webservices\wsdl
+
+ ---------- ----------End test ---------- ----------
+
+This information has been saved in the text file:
+daqtest.txt
+
+If any errors occurred, please visit the MathWorks Technical Support Web Site
+at http://www.mathworks.com/contact_TS.html 
